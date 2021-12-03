@@ -1,0 +1,10 @@
+body{
+    background: repeating-linear-gradient( 180deg, rgb(235, 144, 158), rgb(172, 166, 166), rgb(34, 33, 33));
+    color: black;
+    display: flex;
+    flex-direction: column;
+    flex: start;
+    opacity: 0.8;
+    
+
+}
