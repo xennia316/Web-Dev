@@ -23,14 +23,23 @@ main{
    text-align: center;
    filter: grayscale(1%);
    width: 100%;
+   align-content: center;
 }
 #tribute-link{
     text-decoration: none;
 
 }
-imgage{
+#image{
     width: 30%;
     padding-top: 10px;
     height: auto;
-    max-width: 100%;
+    max-width: max-content;
+    align-self: center;
+    align-content: center;
+}
+img{
+  display: block;
+  width: 100%;
+  max-width: 770px;
+  margin: 0 auto;
 }
