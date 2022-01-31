@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(255, 187, 0);
+  text-align: center;
+  font-size: xx-large;
+  font-family: cursive;
+  padding: 20% 20% 20% 0%;
+  position: fixed;
+  animation-name: new;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.now {
+  background: linear-gradient(
+    rgb(241, 192, 55),
+    rgba(26, 22, 22, 0.986),
+    rgb(51, 36, 36)
+  );
+  color: gold;
+  height: 2em;
+  width: 15em;
+  text-align: center;
+  animation-timing-function: linear;
+  animation-name: now;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes now {
+  0% {
+    background-color: black;
+  }
+  50% {
+    background-color: gold;
+    color: black;
+  }
+  75%{
+      background-color: gold;
+      color: black;
+  }
+  100% {
+    background-color: black;
+  }
+}
+@keyframes new {
+  0% {
+    background-color: black;
+    padding-right: 100%;
+  }
+  50% {
+    background-color: gold;
+    padding-right: 100%;
+  }
+  75% {
+    background-color: gold;
+    padding-right: 100%;
+  }
+  100% {
+    background-color: black;
+    padding-left: 100%;
+  }
+}

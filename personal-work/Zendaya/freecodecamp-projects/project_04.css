@@ -1,0 +1,40 @@
+#navbar{
+    position: fixed;
+    left: 0px;
+    float: left;
+    text-decoration: none;
+    min-width: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-right: 0.3em grey solid;
+    
+
+}
+.nav-link{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: italic;
+    background-color: rgb(241, 233, 230);
+    height: 50%;
+    border: black solid;
+    border-bottom-width: 0.5%;
+    color: black;
+}
+body{
+    background-color: rgb(241, 243, 231);
+}
+#main-doc{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+@media only screen and (max-width: 1200px){
+    body{
+        background-color: brown;
+    }
+}
