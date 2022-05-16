@@ -1,0 +1,10 @@
+Design and implement a system amount:
+- online reservation system for transaction by road
+- Health  management system
+- Covid19 monitoring system
+
+Requirements
+* html, css, js
+- React
+- Node.js
+* PHP
