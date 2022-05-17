@@ -7,4 +7,4 @@ Requirements
 * html, css, js
 - React
 - Node.js
-* PHP
+* PHP and laravel 
